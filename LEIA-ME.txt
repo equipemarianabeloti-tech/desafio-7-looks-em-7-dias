@@ -1,0 +1,14 @@
+LANDING PAGE — DESAFIO 7 LOOKS EM 7 DIAS
+
+Antes de publicar:
+1. Substitua no final do index.html:
+   COLE_AQUI_A_URL_DO_SEU_APPS_SCRIPT
+
+2. Substitua:
+   COLE_AQUI_O_LINK_DO_GRUPO_DO_DESAFIO_7_DIAS
+
+3. Garanta que a imagem Editorial_Mari_Beloti.jpeg esteja na raiz do repositório,
+   junto com o index.html.
+
+Sugestão de repositório:
+desafio-7-looks-em-7-dias
