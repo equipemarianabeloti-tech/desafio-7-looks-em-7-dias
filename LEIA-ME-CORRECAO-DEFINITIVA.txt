@@ -1,0 +1,54 @@
+CORREÇÃO DEFINITIVA — GOOGLE SHEETS
+
+O problema mais comum é usar arquivo Excel (.xlsx) ou Apps Script vinculado à planilha errada.
+Para funcionar com segurança, faça assim:
+
+1. Crie uma PLANILHA GOOGLE nova em sheets.google.com.
+   Não use arquivo .xlsx. Precisa ser Planilha Google.
+
+2. Nomeie a aba como:
+   Leads
+
+3. Na planilha Google, copie o ID da URL:
+   https://docs.google.com/spreadsheets/d/ESTE_TRECHO_AQUI/edit
+
+4. Abra Extensões > Apps Script.
+
+5. Apague o código atual e cole o conteúdo de:
+   google_apps_script_CORRIGIDO.js
+
+6. Dentro do Apps Script, substitua:
+   COLE_AQUI_O_ID_DA_PLANILHA_GOOGLE
+   pelo ID real da sua planilha.
+
+7. Clique em Salvar.
+
+8. Clique em Implantar > Nova implantação.
+   Tipo: Aplicativo da Web
+   Executar como: Eu
+   Quem pode acessar: Qualquer pessoa
+
+9. Clique em Implantar e copie a URL terminada em /exec.
+
+10. Abra essa URL no navegador.
+    Ela precisa mostrar:
+    OK - Web App ativo
+
+11. No index.html, substitua:
+    COLE_AQUI_A_URL_DO_SEU_APPS_SCRIPT
+    pela URL /exec do Web App.
+
+12. No index.html, substitua:
+    COLE_AQUI_O_LINK_DO_GRUPO_DO_DESAFIO_7_DIAS
+    pelo link real do grupo.
+
+13. Suba no GitHub:
+    index.html
+    Editorial_Mari_Beloti.jpeg
+
+14. Após enviar um teste, confira a aba Leads da Planilha Google.
+
+IMPORTANTE:
+Sempre que alterar o Apps Script, faça:
+Implantar > Gerenciar implantações > Editar > Nova versão > Implantar.
+Só salvar o código não atualiza o Web App publicado.
